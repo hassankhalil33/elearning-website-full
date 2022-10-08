@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.container {
+.logiin-section {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -69,3 +69,19 @@
     border-radius: 5px;
     border: 1px solid rgb(216, 216, 216);
 }
+
+.admin-section {
+    padding: 0 15vw;
+    height: 100vh;
+    width: 70vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F9F7F7;
+}
+
+.adming-section > div {
+    height: 100vh;
+}
+
+

@@ -13,11 +13,7 @@ function App() {
                 </section>
             } />
 
-            <Route path="/admin" element={
-                <section className="container">
-                    <Admin />
-                </section>
-            } />
+            <Route path="/admin" element={<Admin />} />
 
             {/* <Route path="/client" element={<Client />} />
             <Route path="/teacher" element={<Teacher />} /> */}
