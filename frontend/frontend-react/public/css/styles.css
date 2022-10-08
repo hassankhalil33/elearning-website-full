@@ -71,9 +71,9 @@
 }
 
 .admin-section {
-    padding: 0 15vw;
+    padding: 0 12vw;
     height: 100vh;
-    width: 70vw;
+    width: 76vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -110,7 +110,11 @@
     width: 80%;
     border: none;
     border-radius: 10px;
+}
+
+.tab-button:hover {
     cursor: pointer;
+    background-color: #a2a4a7;
 }
 
 .tab-button > img {

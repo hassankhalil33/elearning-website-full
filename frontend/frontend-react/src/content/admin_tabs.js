@@ -6,19 +6,23 @@ import students from "../assets/images/students.svg";
 const tabs = [
     {
         content: "Dashboard",
-        icon: dashboard
+        icon: dashboard,
+        path: "/"
     },
     {
         content: "Students",
-        icon: students
+        icon: students,
+        path: "/students"
     },
     {
         content: "Teachers",
-        icon: teachers
+        icon: teachers,
+        path: "/teachers"
     },
     {
         content: "Courses",
-        icon: courses
+        icon: courses,
+        path: "/courses"
     }
 ]
 
