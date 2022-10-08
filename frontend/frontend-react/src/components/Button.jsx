@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 
 function Button(props) {
+    const {content} = props; 
+
     return (
-        <button></button>
+        <button>{content}</button>
     )
 }
 
