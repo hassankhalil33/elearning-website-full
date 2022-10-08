@@ -4,19 +4,23 @@ import Button from "./components/Button";
 
 function App() {
     return (
-    <form>
-        <Input
-            type={"text"}
-            name={"username"}
-            placeholder={"Username"}
-        />
-        <Input
-            type={"password"}
-            name={"password"}
-            placeholder={"Password"}
-        />
-        <Button />
-    </form>
+    <section className="login-section">
+        <div>
+            <form className="login-from">
+                <Input
+                    type={"text"}
+                    name={"username"}
+                    placeholder={"Username"}
+                />
+                <Input
+                    type={"password"}
+                    name={"password"}
+                    placeholder={"Password"}
+                />
+                <Button />
+            </form>
+        </div>
+    </section>
     )
 }
 
