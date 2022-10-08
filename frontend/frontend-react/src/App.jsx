@@ -1,7 +1,22 @@
 import React from "react";
+import Input from "./components/Input";
 
 function App() {
-    return <h1>Hello World</h1>
+    return (
+    <form>
+        <Input
+            type={"text"}
+            name={"username"}
+            placeholder={"Username"}
+        />
+        <Input
+            type={"password"}
+            name={"password"}
+            placeholder={"Password"}
+        />
+        <Button />
+    </form>
+    )
 }
 
 export default App;
