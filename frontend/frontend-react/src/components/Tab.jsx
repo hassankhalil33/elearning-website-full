@@ -4,10 +4,10 @@ function Tab(props) {
     const {content, icon} = props
 
     return (
-        <div>
+        <button className="tab-button">
             <img src={icon} alt=""/>
             <h3>{content}</h3>
-        </div>
+        </button>
     )
 }
 
