@@ -10,6 +10,7 @@ function Profile(props) {
             <h2>{fullName}</h2>
             <h5>{type}</h5>
             <p>{desc}</p>
+            <button><h3>Edit Profile</h3></button>
         </>
     );
 }

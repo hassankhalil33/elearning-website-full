@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
 .logiin-section {
     height: 100vh;
     width: 100vw;
@@ -28,6 +32,7 @@
     font-family: 'Roboto Condensed', sans-serif;
     font-size:28px;
     color: #112D4E;
+    font-weight: bold;
 }
 
 .login-form > button {
@@ -144,4 +149,25 @@
     font-size:28px;
     color: #112D4E;
     margin: 8vh 0;
+}
+
+.admin-profile > h2 {
+    color: #112D4E;
+    margin: 8vh 0 0 0;
+}
+
+.admin-profile > button {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 15px 0;
+    width: 50%;
+    border: none;
+    border-radius: 10px;
+}
+
+.admin-profile > button:hover {
+    cursor: pointer;
+    background-color: #a2a4a7;
 }
