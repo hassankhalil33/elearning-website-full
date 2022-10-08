@@ -1,5 +1,6 @@
 import React from "react";
 import Tab from "./Tab";
+import Profile from "./Profile";
 import tabs from "../content/admin_tabs";
 
 function Admin() {
@@ -21,7 +22,11 @@ function Admin() {
                 <h1>Im the Feed</h1>
             </div>
             <div className="admin-profile">
-                <h1>Im the Profile</h1>
+                <h1>Profile</h1>
+                <Profile 
+                    fullName={"Hassan Khalil"}
+                    type={"admin"}
+                />
             </div>
         </section>
     )
