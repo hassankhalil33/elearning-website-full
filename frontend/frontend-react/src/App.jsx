@@ -1,20 +1,26 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Routes, Route } from "react-router-dom";
 import LoginForm from "./components/LoginForm";
 import Admin from "./components/Admin";
 
 function App() {
     return (
-    <BrowserRouter>
-        <section className="login-section">
-            <LoginForm />
-        </section>
-        <Routes>
-            <Route path="/admin" element={<Admin />} />
-            {/* <Route path="/client" element={<Client />} />
-            <Route path="/teacher" element={<Teacher />} /> */}
-        </Routes>
-    </BrowserRouter>
+    <Routes>
+        <Route path="/" element={
+            <section className="container">
+                <LoginForm />
+            </section>
+        } />
+
+        <Route path="/admin" element={
+            <section className="container">
+                <Admin />
+            </section>
+        } />
+        
+        {/* <Route path="/client" element={<Client />} />
+        <Route path="/teacher" element={<Teacher />} /> */}
+    </Routes>
     )
 }
 
