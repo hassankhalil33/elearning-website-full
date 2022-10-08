@@ -7,16 +7,23 @@ function App() {
     <section className="login-section">
         <form className="login-form">
             <h3>E-Tuter</h3>
-            <Input
-                type={"text"}
-                name={"username"}
-                placeholder={"Username"}
-            />
-            <Input
-                type={"password"}
-                name={"password"}
-                placeholder={"Password"}
-            />
+            <div>
+                <Input
+                    type={"text"}
+                    name={"username"}
+                    placeholder={"Username"}
+                />
+                <Input
+                    type={"password"}
+                    name={"password"}
+                    placeholder={"Password"}
+                />
+                <Input
+                    type={"password"}
+                    name={"password-confirm"}
+                    placeholder={"Confirm Password"}
+                />
+            </div>
             <Button
                 content={"Sign In"}
             />
