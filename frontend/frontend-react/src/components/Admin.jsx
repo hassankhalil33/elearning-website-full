@@ -3,7 +3,7 @@ import Profile from "./Profile";
 import SideBar from "./SideBar";
 import adminTabs from "../content/admin_tabs";
 
-async function Admin() {
+function Admin() {
   // const test = useFetchData();
   // console.log(test);
 
@@ -25,7 +25,7 @@ async function Admin() {
       <SideBar tabs={adminTabs} />
 
       <div className="admin-feed">
-        <h1>Dashboard</h1>
+        <h1>Feed Here</h1>
       </div>
 
       <div className="admin-profile">
