@@ -6,7 +6,7 @@ function AdminCourses() {
   return (
     <Admin>
       <div className="admin-feed">
-        <h1>Courses Screen</h1>
+        <h1>All Courses</h1>
       </div>
     </Admin>
   )

@@ -7,7 +7,7 @@ function AdminStudents() {
     <Admin>
       <div className="admin-feed">
         <div>
-          <h1>Admin Screen</h1>
+          <h1>Admin Dashboard</h1>
         </div>
         <section className="admin-lower-feed">
           <div>
