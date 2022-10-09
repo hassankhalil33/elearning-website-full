@@ -20,7 +20,7 @@ function AdminCourses() {
             />
           </div>
           <Table
-            headers={["Course ID", "Name", "Teacher", "Duration", "Edit"]}
+            headers={["Course ID", "Course Name", "Teacher", "Duration", "Edit"]}
             contents={courseData}
           />
         </section>
