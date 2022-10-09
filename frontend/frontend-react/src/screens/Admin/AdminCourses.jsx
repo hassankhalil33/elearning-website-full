@@ -16,7 +16,7 @@ function AdminCourses() {
           <div>
             <Button
               className={"admin-feed-button"}
-              content={"Add New Teacher"}
+              content={"Add New Course"}
             />
           </div>
           <Table
