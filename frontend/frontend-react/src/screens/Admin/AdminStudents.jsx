@@ -21,7 +21,7 @@ function AdminStudents() {
           </div>
           <Table
             headers={["ID", "Photo", "Name", "Course", "Edit"]}
-            content={studentData}
+            contents={studentData}
           />
         </section>
       </div>

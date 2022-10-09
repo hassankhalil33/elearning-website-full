@@ -2,7 +2,7 @@ import React from "react";
 import defaultPic from "../assets/images/default_pic.png";
 
 function Table(props) {
-  const { headers, content } = props;
+  const { headers, contents } = props;
 
   return (
     <div>
@@ -13,20 +13,17 @@ function Table(props) {
           )
         })}
       </section>
-      <div>
-        <p>1</p>
-        <p><img src={defaultPic} alt="" /></p>
-        <p>Charbel Maroun</p>
-        <p>FSWO5</p>
-        <p></p>
-      </div>
-      <div>
-        <p>2</p>
-        <p><img src={defaultPic} alt="" /></p>
-        <p>Jad Yahya</p>
-        <p>FSWO5</p>
-        <p></p>
-      </div>
+      {contents.map((content, index) => {
+        return (
+          <div key={content.index}>
+            <p>{content.id}</p>
+            <p><img src={defaultPic} alt="" /></p>
+            <p>{content.name}</p>
+            <p>{content.course}</p>
+            <p></p>
+          </div>
+        )
+      })}
     </div>
   )
 }
