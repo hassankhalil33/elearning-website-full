@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Tab from "./Tab";
 import Profile from "./Profile";
 import tabs from "../content/admin_tabs";
@@ -18,9 +19,11 @@ function Admin() {
                     )
                 })}
             </div>
+
             <div className="admin-feed">
-                <h1>Im the Feed</h1>
+                <h1>Dashboard</h1>
             </div>
+            
             <div className="admin-profile">
                 <h1>Profile</h1>
                 <Profile 
