@@ -18,7 +18,9 @@ function AdminStudents() {
               content={"Add New Student"}
             />
           </div>
-          <Table />
+          <Table
+            headers={["ID", "Photo", "Name", "Course", "Edit"]}
+          />
         </section>
       </div>
     </Admin>

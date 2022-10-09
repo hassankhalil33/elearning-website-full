@@ -2,14 +2,16 @@ import React from "react";
 import defaultPic from "../assets/images/default_pic.png";
 
 function Table(props) {
+  const { headers, content } = props;
+
   return (
     <div>
       <section className="table-content">
-        <p>ID</p>
-        <p>Photo</p>
-        <p>Name</p>
-        <p>Course</p>
-        <p>Edit</p>
+        {headers.map((header, index) => {
+          return (
+            <p key={index}>{header}</p>
+          )
+        })}
       </section>
       <div>
         <p>1</p>
