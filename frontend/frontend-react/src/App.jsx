@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LoginForm from "./components/LoginForm";
 import AdminDashboard from "./screens/Admin/AdminDashboard";
 import AdminStudents from "./screens/Admin/AdminStudents";
+import AdminTeachers from "./screens/Admin/AdminTeachers";
+import AdminCourses from "./screens/Admin/AdminCourses";
 
 function App() {
   return (
@@ -19,8 +21,8 @@ function App() {
 
         <Route path="/admin" element={<AdminDashboard />} />
         <Route path="/admin/students" element={<AdminStudents />} />
-        {/* <Route path="/admin/teachers" element={<Admin />} />
-        <Route path="/admin/courses" element={<Admin />} /> */}
+        <Route path="/admin/teachers" element={<AdminTeachers />} />
+        <Route path="/admin/courses" element={<AdminCourses />} />
 
         {/* <Route path="/student" element={<Student />} />
         <Route path="/student/assignments" element={<Admin />} /> */}

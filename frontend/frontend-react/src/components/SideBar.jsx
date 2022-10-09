@@ -15,7 +15,7 @@ function SideBar(props) {
             content={tab.content}
             icon={tab.icon}
             url={tab.path}
-            active={currentLocation.pathname == tab.path}
+            active={currentLocation.pathname === tab.path}
           />
         )
       })}
