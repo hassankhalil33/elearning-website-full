@@ -20,7 +20,9 @@ function Table(props) {
             <p>{content.id}</p>
             {image && <p><img src={defaultPic} alt="" /></p>}
             <p>{content.name}</p>
-            <p>{content.course}</p>
+            {content.course && <p>{content.course}</p>}
+            {content.teacher && <p>{content.teacher}</p>}
+            {content.duration && <p>{content.duration}</p>}
             <p></p>
           </div>
         )
