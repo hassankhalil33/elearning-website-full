@@ -8,7 +8,7 @@ function App() {
     <Router>
         <Routes>
             <Route path="/" element={
-                <section className="container">
+                <section className="login-section">
                     <LoginForm />
                 </section>
             } />
