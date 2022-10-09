@@ -1,5 +1,6 @@
 import React from "react";
 import Tab from "../components/Tab";
+import logout from "../assets/images/logout.svg";
 import { useLocation } from "react-router-dom";
 
 function SideBar(props) {
@@ -19,6 +20,12 @@ function SideBar(props) {
           />
         )
       })}
+      <Tab
+        addClass="logout-button"
+        content={"Log Out"}
+        icon={logout}
+        url={"/"}
+      />
     </div>
   )
 }

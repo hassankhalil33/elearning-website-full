@@ -245,3 +245,8 @@ p {
   font-size: 18px;
   border: solid 1px rgb(165, 165, 165);
 }
+
+.logout-button {
+  background-color: #112D4E;
+  color: #F9F7F7;
+}
