@@ -3,7 +3,6 @@ import defaultPic from "../assets/images/default_pic.png";
 
 function Table(props) {
   const { headers, contents } = props;
-  const [image] = contents;
 
   return (
     <div>
@@ -18,7 +17,7 @@ function Table(props) {
         return (
           <div key={content.index}>
             <p>{content.id}</p>
-            {image && <p><img src={defaultPic} alt="" /></p>}
+            {content.image && <p><img src={defaultPic} alt="default" /></p>}
             <p>{content.name}</p>
             {content.course && <p>{content.course}</p>}
             {content.teacher && <p>{content.teacher}</p>}
