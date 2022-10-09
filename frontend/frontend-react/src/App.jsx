@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LoginForm from "./components/LoginForm";
-import Admin from "./components/Admin";
+import AdminDashboard from "./screens/Admin/AdminDashboard";
+import AdminStudents from "./screens/Admin/AdminStudents";
 
 function App() {
   return (
@@ -16,12 +17,15 @@ function App() {
           }
         />
 
-        <Route path="/admin" element={<Admin />} />
-        <Route path="/admin/students" element={<Admin />} />
-        <Route path="/admin/teachers" element={<Admin />} />
-        <Route path="/admin/courses" element={<Admin />} />
+        <Route path="/admin" element={<AdminDashboard />} />
+        <Route path="/admin/students" element={<AdminStudents />} />
+        {/* <Route path="/admin/teachers" element={<Admin />} />
+        <Route path="/admin/courses" element={<Admin />} /> */}
 
-        {/* <Route path="/client" element={<Student />} />
+        {/* <Route path="/student" element={<Student />} />
+        <Route path="/student/assignments" element={<Admin />} /> */}
+
+        {/* <Route path="/teacher" element={<Student />} />
       <Route path="/teacher" element={<Teacher />} /> */}
       </Routes>
     </Router>

@@ -3,7 +3,9 @@ import Profile from "./Profile";
 import SideBar from "./SideBar";
 import adminTabs from "../content/admin_tabs";
 
-function Admin() {
+function Admin(props) {
+  const { children } = props;
+
   // const test = useFetchData();
   // console.log(test);
 
@@ -20,13 +22,13 @@ function Admin() {
   //   useFetchData()
   //     .then(data => setFetch(data));
 
+  console.log("test");
+
   return (
     <section className="admin-section">
       <SideBar tabs={adminTabs} />
 
-      <div className="admin-feed">
-        <h1>Feed Here</h1>
-      </div>
+      {children}
 
       <div className="admin-profile">
         <h1>Profile</h1>
