@@ -2,6 +2,7 @@ import React from "react";
 import Admin from "../../components/Admin";
 import Button from "../../components/Button";
 import Table from "../../components/Table";
+import courseData from "../../content/course_data";
 
 function AdminCourses() {
 
@@ -20,7 +21,7 @@ function AdminCourses() {
           </div>
           <Table
             headers={["Course ID", "Name", "Teacher", "Duration", "Edit"]}
-            contents={""}
+            contents={courseData}
           />
         </section>
       </div>
