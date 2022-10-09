@@ -1,24 +1,28 @@
 import React from "react";
-import Tab from "./Tab";
 import Profile from "./Profile";
-import tabs from "../content/admin_tabs";
+import SideBar from "./SideBar";
+import adminTabs from "../content/admin_tabs";
 
-function Admin() {
+async function Admin() {
+  // const test = useFetchData();
+  // console.log(test);
+
+  // const response_landing = await useFetchData();
+  // console.log("Testing Products API", response_landing.data.data);
+
+  // const [fetch, setFetch] = useState();
+  // // axios.get("https://dog.ceo/api/breeds/image/random").then(response => setFetch(response.data));
+
+  // useEffect(() => {
+  //   axios.get("https://dog.ceo/api/breeds/image/random").then(response => setFetch(response.data));
+  // }, [])
+
+  //   useFetchData()
+  //     .then(data => setFetch(data));
+
   return (
     <section className="admin-section">
-      <div className="admin-sidebar">
-        <h1>E-Tuter</h1>
-        {tabs.map((tab, index) => {
-          return (
-            <Tab
-              key={index}
-              content={tab.content}
-              icon={tab.icon}
-              url={tab.path}
-            />
-          )
-        })}
-      </div>
+      <SideBar tabs={adminTabs} />
 
       <div className="admin-feed">
         <h1>Dashboard</h1>
@@ -31,7 +35,7 @@ function Admin() {
           type={"admin"}
         />
       </div>
-    </section>
+    </section >
   )
 }
 

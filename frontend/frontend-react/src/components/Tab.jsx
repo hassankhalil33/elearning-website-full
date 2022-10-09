@@ -1,22 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function Tab(props) {
-  const { content, icon, url } = props
-  const [pressed, setPressed] = useState(false);
-
-  const handleClick = () => {
-
-    setPressed((old) => {
-      return !old;
-    })
-  }
+  const { content, icon, url, active } = props
+  const navigate = useNavigate();
 
   return (
     <button
       className="tab-button"
-      onClick={handleClick}
+      onClick={() => navigate(url)}
       style={
-        { backgroundColor: pressed ? "#3F72AF" : "" }
+        { backgroundColor: active ? "#3F72AF" : "" }
       }
     >
       <img src={icon} alt="" />

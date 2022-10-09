@@ -171,3 +171,8 @@ body {
   cursor: pointer;
   background-color: #a2a4a7;
 }
+
+.admin-profile>button #active {
+  cursor: pointer;
+  background-color: #a2a4a7;
+}

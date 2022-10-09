@@ -3,27 +3,27 @@ import teachers from "../assets/images/teachers.svg";
 import courses from "../assets/images/courses.svg";
 import students from "../assets/images/students.svg";
 
-const tabs = [
+const adminTabs = [
   {
     content: "Dashboard",
     icon: dashboard,
-    path: "/"
+    path: "/admin"
   },
   {
     content: "Students",
     icon: students,
-    path: "/students"
+    path: "/admin/students"
   },
   {
     content: "Teachers",
     icon: teachers,
-    path: "/teachers"
+    path: "/admin/teachers"
   },
   {
     content: "Courses",
     icon: courses,
-    path: "/courses"
+    path: "/admin/courses"
   }
 ]
 
-export default tabs;
+export default adminTabs;
