@@ -16,6 +16,7 @@ img {
 p {
   width: 100px;
   text-align: center;
+  color: #112D4E;
 }
 
 .login-section {
@@ -199,7 +200,7 @@ p {
 .admin-feed-button {
   background-color: #3F72AF;
   border-radius: 10px;
-  color: black;
+  color: #112D4E;
   font-size: 16px;
   font-weight: bold;
   padding: 12px 20px;
@@ -228,8 +229,12 @@ p {
   margin-top: 30px;
   padding: 10px 0;
   background-color: #3F72AF;
-  color: #F9F7F7;
   font-size: 18px;
+  font-weight: 700;
+}
+
+.table-content>p {
+  color: #F9F7F7;
 }
 
 .admin-lower-feed>div:last-child>div {
