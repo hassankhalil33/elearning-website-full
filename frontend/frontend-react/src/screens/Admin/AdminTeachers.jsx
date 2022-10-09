@@ -1,5 +1,8 @@
 import React from "react";
 import Admin from "../../components/Admin";
+import Button from "../../components/Button";
+import Table from "../../components/Table";
+
 
 function AdminTeachers() {
 
@@ -11,11 +14,15 @@ function AdminTeachers() {
         </div>
         <section className="admin-lower-feed">
           <div>
-
+            <Button
+              className={"admin-feed-button"}
+              content={"Add New Student"}
+            />
           </div>
-          <div>
-
-          </div>
+          <Table
+            headers={["ID", "Photo", "Name", "Edit"]}
+            contents={studentData}
+          />
         </section>
       </div>
     </Admin>
