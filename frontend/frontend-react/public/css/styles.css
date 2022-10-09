@@ -7,16 +7,16 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
-img {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-}
-
 p {
   width: 100px;
   text-align: center;
   color: #112D4E;
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 
 .login-section {

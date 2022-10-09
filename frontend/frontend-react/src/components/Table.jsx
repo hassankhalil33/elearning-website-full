@@ -17,7 +17,7 @@ function Table(props) {
         return (
           <div key={content.index}>
             <p>{content.id}</p>
-            {content.image && <p><img src={defaultPic} alt="default" /></p>}
+            {content.image && <p><img className="profile-image" src={defaultPic} alt="default" /></p>}
             <p>{content.name}</p>
             {content.course && <p>{content.course}</p>}
             {content.teacher && <p>{content.teacher}</p>}
