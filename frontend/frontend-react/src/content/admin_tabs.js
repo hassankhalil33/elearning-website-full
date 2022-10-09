@@ -4,26 +4,26 @@ import courses from "../assets/images/courses.svg";
 import students from "../assets/images/students.svg";
 
 const tabs = [
-    {
-        content: "Dashboard",
-        icon: dashboard,
-        path: "/"
-    },
-    {
-        content: "Students",
-        icon: students,
-        path: "/students"
-    },
-    {
-        content: "Teachers",
-        icon: teachers,
-        path: "/teachers"
-    },
-    {
-        content: "Courses",
-        icon: courses,
-        path: "/courses"
-    }
+  {
+    content: "Dashboard",
+    icon: dashboard,
+    path: "/"
+  },
+  {
+    content: "Students",
+    icon: students,
+    path: "/students"
+  },
+  {
+    content: "Teachers",
+    icon: teachers,
+    path: "/teachers"
+  },
+  {
+    content: "Courses",
+    icon: courses,
+    path: "/courses"
+  }
 ]
 
 export default tabs;
