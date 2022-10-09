@@ -6,7 +6,17 @@ function AdminCourses() {
   return (
     <Admin>
       <div className="admin-feed">
-        <h1>All Courses</h1>
+        <div>
+          <h1>All Courses</h1>
+        </div>
+        <section className="admin-lower-feed">
+          <div>
+
+          </div>
+          <div>
+
+          </div>
+        </section>
       </div>
     </Admin>
   )
