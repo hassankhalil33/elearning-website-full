@@ -1,5 +1,7 @@
 import React from "react";
 import Admin from "../../components/Admin";
+import Button from "../../components/Button";
+import Table from "../../components/Table";
 
 function AdminCourses() {
 
@@ -11,11 +13,15 @@ function AdminCourses() {
         </div>
         <section className="admin-lower-feed">
           <div>
-
+            <Button
+              className={"admin-feed-button"}
+              content={"Add New Teacher"}
+            />
           </div>
-          <div>
-
-          </div>
+          <Table
+            headers={["Course ID", "Name", "Teacher", "Duration", "Edit"]}
+            contents={""}
+          />
         </section>
       </div>
     </Admin>
