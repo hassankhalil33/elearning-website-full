@@ -307,3 +307,60 @@ p {
 .table-content-teacher>p {
   color: #FF884B;
 }
+
+.student-sidebar {
+  background-color: #FFD384;
+}
+
+.student-profile {
+  background-color: #FFD384;
+}
+
+.student-sidebar>h1 {
+  color: #FF884B;
+}
+
+.student-profile>h1 {
+  color: #FF884B;
+}
+
+.student-profile>h2 {
+  color: #FF884B;
+}
+
+.logout-button-student {
+  background-color: #FF884B;
+  color: black;
+}
+
+.student-feed>div {
+  color: #FF884B;
+}
+
+.student-feed-button {
+  background-color: #FFD384;
+  color: #FF884B;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 20px;
+  margin-top: 15px;
+  width: 35%;
+  border: none;
+  text-decoration: none;
+  align-self: flex-end;
+}
+
+.student-feed-button:hover {
+  cursor: pointer;
+  background-color: #ffa84b;
+  color: #F9F7F7;
+}
+
+.table-content-student {
+  background-color: #FFD384;
+}
+
+.table-content-student>p {
+  color: #FF884B;
+}
