@@ -282,6 +282,21 @@ p {
 
 .teacher-feed-button {
   background-color: #FFD384;
+  color: #FF884B;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 20px;
+  margin-top: 15px;
+  width: 30%;
+  border: none;
+  text-decoration: none;
+  align-self: flex-end;
+}
+
+.teacher-feed-button:hover {
+  cursor: pointer;
+  background-color: #ffa84b;
   color: #F9F7F7;
 }
 

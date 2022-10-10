@@ -1,5 +1,5 @@
 import React from "react";
-import Admin from "../../components/Admin";
+import Teacher from "../../components/Teacher";
 import Button from "../../components/Button";
 import Table from "../../components/Table";
 import courseData from "../../content/course_data";
@@ -7,7 +7,7 @@ import courseData from "../../content/course_data";
 function TeacherAnnouncements() {
 
   return (
-    <Admin>
+    <Teacher>
       <div className="admin-feed teacher-feed">
         <div>
           <h1>Create Announcements</h1>
@@ -25,7 +25,7 @@ function TeacherAnnouncements() {
           />
         </section>
       </div>
-    </Admin>
+    </Teacher>
   )
 }
 
