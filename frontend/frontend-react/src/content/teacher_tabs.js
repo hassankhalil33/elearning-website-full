@@ -15,14 +15,14 @@ const teacherTabs = [
     path: "/teacher/students"
   },
   {
-    content: "Teachers",
+    content: "Assignments",
     icon: teachers,
-    path: "/teacher/teachers"
+    path: "/teacher/assignments"
   },
   {
-    content: "Courses",
+    content: "Announcements",
     icon: courses,
-    path: "/teacher/courses"
+    path: "/teacher/announcements"
   }
 ]
 
