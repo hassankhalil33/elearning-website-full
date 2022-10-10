@@ -9,6 +9,9 @@ import TeacherDashboard from "./screens/Teacher/TeacherDashboard";
 import TeacherStudents from "./screens/Teacher/TeacherStudents";
 import TeacherAssignments from "./screens/Teacher/TeacherAssignments";
 import TeacherAnnouncements from "./screens/Teacher/TeacherAnnouncements";
+import StudentDashboard from "./screens/Student/StudentDashboard";
+import StudentAssignments from "./screens/Student/StudentsAssignments";
+import StudentAnnouncements from "./screens/Student/StudentAnnouncements";
 
 function App() {
   return (
