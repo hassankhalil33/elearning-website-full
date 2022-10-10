@@ -2,11 +2,11 @@ import React from "react";
 import defaultPic from "../assets/images/default_pic.png";
 
 function Table(props) {
-  const { headers, contents } = props;
+  const { headers, contents, addClass } = props;
 
   return (
     <div>
-      <section className="table-content">
+      <section className={`table-content ${addClass && addClass}`}>
         {headers.map((header, index) => {
           return (
             <p key={index}>{header}</p>
