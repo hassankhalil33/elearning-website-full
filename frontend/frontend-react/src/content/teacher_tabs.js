@@ -1,6 +1,6 @@
 import dashboard from "../assets/images/dashboard.svg";
-import teachers from "../assets/images/teachers.svg";
-import courses from "../assets/images/courses.svg";
+import assignments from "../assets/images/assignments.svg";
+import announcements from "../assets/images/announcements.svg";
 import students from "../assets/images/students.svg";
 
 const teacherTabs = [
@@ -16,12 +16,12 @@ const teacherTabs = [
   },
   {
     content: "Assignments",
-    icon: teachers,
+    icon: assignments,
     path: "/teacher/assignments"
   },
   {
     content: "Announcements",
-    icon: courses,
+    icon: announcements,
     path: "/teacher/announcements"
   }
 ]
