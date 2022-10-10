@@ -6,6 +6,9 @@ import AdminStudents from "./screens/Admin/AdminStudents";
 import AdminTeachers from "./screens/Admin/AdminTeachers";
 import AdminCourses from "./screens/Admin/AdminCourses";
 import TeacherDashboard from "./screens/Teacher/TeacherDashboard";
+import TeacherStudents from "./screens/Teacher/TeacherStudents";
+import TeacherAssignments from "./screens/Teacher/TeacherAssignments";
+import TeacherAnnouncements from "./screens/Teacher/TeacherAnnouncements";
 
 function App() {
   return (
