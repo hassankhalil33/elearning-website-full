@@ -15,13 +15,14 @@ function TeacherAssignments() {
         <section className="admin-lower-feed">
           <div>
             <Button
-              className={"admin-feed-button"}
-              content={"Add New Course"}
+              className={"teacher-feed-button"}
+              content={"Add New Assignment"}
             />
           </div>
           <Table
             headers={["Course ID", "Course Name", "Teacher", "Duration", "Edit"]}
             contents={courseData}
+            addClass={"table-content-teacher"}
           />
         </section>
       </div>
