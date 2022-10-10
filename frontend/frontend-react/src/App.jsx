@@ -24,11 +24,15 @@ function App() {
         <Route path="/admin/teachers" element={<AdminTeachers />} />
         <Route path="/admin/courses" element={<AdminCourses />} />
 
+        <Route path="/teacher" element={<TeacherDashboard />} />
+        {/* <Route path="/teacher/" element={<TeacherDashboard />} />
+        <Route path="/teacher/" element={<TeacherDashboard />} />
+        <Route path="/teacher/" element={<TeacherDashboard />} /> */}
+
+
         {/* <Route path="/student" element={<Student />} />
         <Route path="/student/assignments" element={<Admin />} /> */}
 
-        {/* <Route path="/teacher" element={<Student />} />
-      <Route path="/teacher" element={<Teacher />} /> */}
       </Routes>
     </Router>
   )
