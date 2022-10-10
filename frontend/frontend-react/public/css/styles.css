@@ -309,37 +309,37 @@ p {
 }
 
 .student-sidebar {
-  background-color: #FFD384;
+  background-color: #FFE3E1;
 }
 
 .student-profile {
-  background-color: #FFD384;
+  background-color: #FFE3E1;
 }
 
 .student-sidebar>h1 {
-  color: #FF884B;
+  color: #FF9494;
 }
 
 .student-profile>h1 {
-  color: #FF884B;
+  color: #FF9494;
 }
 
 .student-profile>h2 {
-  color: #FF884B;
+  color: #FF9494;
 }
 
 .logout-button-student {
-  background-color: #FF884B;
+  background-color: #FF9494;
   color: black;
 }
 
 .student-feed>div {
-  color: #FF884B;
+  color: black;
 }
 
 .student-feed-button {
-  background-color: #FFD384;
-  color: #FF884B;
+  background-color: #FFE3E1;
+  color: #112D4E;
   border-radius: 10px;
   font-size: 16px;
   font-weight: bold;
@@ -353,14 +353,13 @@ p {
 
 .student-feed-button:hover {
   cursor: pointer;
-  background-color: #ffa84b;
-  color: #F9F7F7;
+  background-color: #FFD1D1;
 }
 
 .table-content-student {
-  background-color: #FFD384;
+  background-color: #FFE3E1;
 }
 
 .table-content-student>p {
-  color: #FF884B;
+  color: #112D4E;
 }

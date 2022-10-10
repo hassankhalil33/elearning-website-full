@@ -5,9 +5,9 @@ function StudentDashboard() {
 
   return (
     <Student>
-      <div className="admin-feed teacher-feed">
+      <div className="admin-feed student-feed">
         <div>
-          <h1>Teacher Dashboard</h1>
+          <h1>Student Dashboard</h1>
         </div>
         <section className="admin-lower-feed">
           <div>

@@ -1,6 +1,5 @@
 import React from "react";
 import Student from "../../components/Student";
-import Button from "../../components/Button";
 import Table from "../../components/Table";
 import courseData from "../../content/course_data";
 

@@ -11,8 +11,8 @@ function Student(props) {
       <SideBar
         tabs={studentTabs}
         addClass={"student-sidebar"}
-        buttonClass={"logout-button-teacher"}
-        color={"#ffa84b"}
+        buttonClass={"logout-button-student"}
+        color={"#f7c3c3"}
       />
 
       {children}
