@@ -288,7 +288,7 @@ p {
   font-weight: bold;
   padding: 12px 20px;
   margin-top: 15px;
-  width: 30%;
+  width: 35%;
   border: none;
   text-decoration: none;
   align-self: flex-end;
@@ -305,5 +305,5 @@ p {
 }
 
 .table-content-teacher>p {
-  color: #F9F7F7;
+  color: #FF884B;
 }

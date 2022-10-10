@@ -22,6 +22,7 @@ function TeacherStudents() {
           <Table
             headers={["Course ID", "Course Name", "Teacher", "Duration", "Edit"]}
             contents={courseData}
+            addClass={"table-content-teacher"}
           />
         </section>
       </div>
