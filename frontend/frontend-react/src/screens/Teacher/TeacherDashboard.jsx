@@ -5,7 +5,7 @@ function TeacherDashboard() {
 
   return (
     <Teacher>
-      <div className="admin-feed">
+      <div className="admin-feed teacher-feed">
         <div>
           <h1>Teacher Dashboard</h1>
         </div>

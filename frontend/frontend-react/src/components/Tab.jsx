@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 
 function Tab(props) {
-  const { addClass, content, icon, url, active } = props
+  const { addClass, content, icon, url, active, color } = props
   const navigate = useNavigate();
 
   return (
@@ -10,7 +10,7 @@ function Tab(props) {
       className={`tab-button ${addClass}`}
       onClick={() => navigate(url)}
       style={
-        { backgroundColor: active ? "#3F72AF" : "" }
+        { backgroundColor: active ? color : "" }
       }
     >
       <img src={icon} alt="" />

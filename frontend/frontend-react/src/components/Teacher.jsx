@@ -8,7 +8,12 @@ function Admin(props) {
 
   return (
     <section className="admin-section teacher-section">
-      <SideBar tabs={teacherTabs} />
+      <SideBar
+        tabs={teacherTabs}
+        addClass={"teacher-sidebar"}
+        buttonClass={"logout-button-teacher"}
+        color={"#ffa84b"}
+      />
 
       {children}
 

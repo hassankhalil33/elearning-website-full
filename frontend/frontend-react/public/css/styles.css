@@ -246,11 +246,49 @@ p {
   border: solid 1px rgb(165, 165, 165);
 }
 
-.logout-button {
+.logout-button-admin {
   background-color: #112D4E;
   color: #F9F7F7;
 }
 
+.teacher-sidebar {
+  background-color: #FFD384;
+}
+
 .teacher-profile {
-  background-color: #D58BDD;
+  background-color: #FFD384;
+}
+
+.teacher-sidebar>h1 {
+  color: #FF884B;
+}
+
+.teacher-profile>h1 {
+  color: #FF884B;
+}
+
+.teacher-profile>h2 {
+  color: #FF884B;
+}
+
+.logout-button-teacher {
+  background-color: #FF884B;
+  color: black;
+}
+
+.teacher-feed>div {
+  color: #FF884B;
+}
+
+.teacher-feed-button {
+  background-color: #FFD384;
+  color: #F9F7F7;
+}
+
+.table-content-teacher {
+  background-color: #FFD384;
+}
+
+.table-content-teacher>p {
+  color: #F9F7F7;
 }

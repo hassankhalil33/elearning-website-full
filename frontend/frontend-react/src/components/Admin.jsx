@@ -26,7 +26,11 @@ function Admin(props) {
 
   return (
     <section className="admin-section">
-      <SideBar tabs={adminTabs} />
+      <SideBar
+        tabs={adminTabs}
+        buttonClass={"logout-button-admin"}
+        color={"#3F72AF"}
+      />
 
       {children}
 

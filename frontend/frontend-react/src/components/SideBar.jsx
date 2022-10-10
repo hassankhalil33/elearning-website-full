@@ -4,10 +4,11 @@ import logout from "../assets/images/logout.svg";
 import { useLocation } from "react-router-dom";
 
 function SideBar(props) {
+  const { addClass, buttonClass, color } = props;
   const currentLocation = useLocation();
 
   return (
-    <div className="admin-sidebar">
+    <div className={`admin-sidebar ${addClass && addClass}`}>
       <h1>E-Tuter</h1>
       {props.tabs.map((tab, index) => {
         return (
@@ -17,11 +18,12 @@ function SideBar(props) {
             icon={tab.icon}
             url={tab.path}
             active={currentLocation.pathname === tab.path}
+            color={color}
           />
         )
       })}
       <Tab
-        addClass="logout-button"
+        addClass={buttonClass}
         content={"Log Out"}
         icon={logout}
         url={"/"}
