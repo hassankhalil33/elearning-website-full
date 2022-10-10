@@ -10,15 +10,15 @@ function StudentAnnouncements() {
     <Student>
       <div className="admin-feed student-feed">
         <div>
-          <h1>Add Assignments</h1>
+          <h1>Announcements</h1>
         </div>
         <section className="admin-lower-feed">
-          {/* <div>
-            <Button
+          <div>
+            {/* <Button
               className={"student-feed-button"}
               content={"Submit Assignment"}
-            />
-          </div> */}
+            /> */}
+          </div>
           <Table
             headers={["Course ID", "Course Name", "Teacher", "Duration", "Edit"]}
             contents={courseData}
