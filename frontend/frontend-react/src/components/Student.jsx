@@ -1,31 +1,31 @@
 import React from "react";
 import Profile from "./Profile";
 import SideBar from "./SideBar";
-import teacherTabs from "../content/teacher_tabs";
+import studentTabs from "../content/student_tabs";
 
-function Teacher(props) {
+function Student(props) {
   const { children } = props;
 
   return (
-    <section className="admin-section teacher-section">
+    <section className="admin-section student-section">
       <SideBar
-        tabs={teacherTabs}
-        addClass={"teacher-sidebar"}
+        tabs={studentTabs}
+        addClass={"student-sidebar"}
         buttonClass={"logout-button-teacher"}
         color={"#ffa84b"}
       />
 
       {children}
 
-      <div className="admin-profile teacher-profile">
+      <div className="admin-profile student-profile">
         <h1>Profile</h1>
         <Profile
-          fullName={"Charbel Daoud"}
-          type={"teacher"}
+          fullName={"Charbel Maroun"}
+          type={"student"}
         />
       </div>
     </section >
   )
 }
 
-export default Teacher;
+export default Student;
