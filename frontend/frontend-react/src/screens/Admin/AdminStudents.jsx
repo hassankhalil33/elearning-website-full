@@ -6,9 +6,8 @@ import studentData from "../../content/student_data";
 import FetchData from "../../hooks/FetchData";
 
 function AdminStudents() {
+
   const { data } = FetchData("/students");
-  // const studentData = data.message;
-  console.log(data.message)
 
   return (
     <Admin>
@@ -25,7 +24,7 @@ function AdminStudents() {
           </div>
           <Table
             headers={["ID", "Photo", "Name", "Course", "Edit"]}
-            contents={studentData && studentData}
+            contents={data.message ? data.message : studentData}
           />
         </section>
       </div>
