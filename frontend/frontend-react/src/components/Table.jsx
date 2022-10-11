@@ -16,7 +16,7 @@ function Table(props) {
       {contents.map((content, index) => {
         return (
           <div key={index}>
-            <p>{content.id}</p>
+            <p>{index + 1}</p>
             {content.image && <p><img className="profile-image" src={defaultPic} alt="default" /></p>}
             <p>{content.name}</p>
             {content.course && <p>{content.course}</p>}

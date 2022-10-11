@@ -13,7 +13,7 @@ const FetchData = (api_url) => {
 
   useEffect(() => {
     const fetchData = async () => {
-      const { data: response } = await axios.get(`http://127.0.0.1:8000/api/${api_url}`);
+      const { data: response } = await axios.get(`http://127.0.0.1:8000/api${api_url}`);
       setData(response);
     };
 
