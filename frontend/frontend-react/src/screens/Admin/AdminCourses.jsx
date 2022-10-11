@@ -8,7 +8,6 @@ import FetchData from "../../hooks/FetchData";
 function AdminCourses() {
 
   const { data } = FetchData("/courses");
-  console.log(data.message);
 
   return (
     <Admin>
@@ -25,7 +24,7 @@ function AdminCourses() {
           </div>
           <Table
             headers={["Course ID", "Course Name", "Teacher", "Duration", "Edit"]}
-            contents={courseData}
+            contents={data.message ? data.message : courseData}
           />
         </section>
       </div>
