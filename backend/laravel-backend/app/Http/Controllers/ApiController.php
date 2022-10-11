@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\Admin;
+use App\Models\Course;
 
 class ApiController extends Controller {
     
@@ -18,11 +19,11 @@ class ApiController extends Controller {
     }
 
     public function admins() {
-        $students = Admin::get();
+        $admins = Admin::get();
 
         return response()->json([
             "status" => "success",
-            "message" => $students 
+            "message" => $admins
         ]);
     }
 
