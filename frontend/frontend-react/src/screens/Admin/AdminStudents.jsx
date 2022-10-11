@@ -3,8 +3,11 @@ import Admin from "../../components/Admin";
 import Button from "../../components/Button";
 import Table from "../../components/Table";
 import studentData from "../../content/student_data";
+import FetchData from "../../hooks/FetchData";
 
 function AdminStudents() {
+  const { data } = FetchData("/students");
+  console.log(data);
 
   return (
     <Admin>

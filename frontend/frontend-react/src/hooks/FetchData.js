@@ -5,10 +5,10 @@
 // export default useFetchData
 
 //WORKING:
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import axios from "axios";
 
-const fetchData = (api_url) => {
+const FetchData = (api_url) => {
   const [data, setData] = useState({});
 
   useEffect(() => {
@@ -25,4 +25,4 @@ const fetchData = (api_url) => {
   };
 };
 
-export default fetchData;
+export default FetchData;
