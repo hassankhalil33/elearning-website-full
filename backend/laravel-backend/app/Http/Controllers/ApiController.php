@@ -16,6 +16,15 @@ class ApiController extends Controller {
         ]);
     }
 
+    public function admins() {
+        $students = User::get();
+
+        return response()->json([
+            "status" => "success",
+            "message" => $students 
+        ]);
+    }
+
     public function teachers() {
         
     }

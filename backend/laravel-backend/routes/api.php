@@ -8,3 +8,4 @@ Route::get("/students", [ApiController::class, "students"])->name("students");
 Route::get("/teachers", [ApiController::class, "teachers"])->name("teachers");
 Route::get("/announcements", [ApiController::class, "announcements"])->name("announcements");
 Route::get("/courses", [ApiController::class, "courses"])->name("courses");
+Route::get("/admins", [ApiController::class, "admins"])->name("admins");
