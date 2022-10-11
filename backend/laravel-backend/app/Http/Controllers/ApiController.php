@@ -32,7 +32,6 @@ class ApiController extends Controller {
 
         foreach($teachers as $teacher) {
             $teacher["course"] = $teacher["course"]["name"];
-            
         }
 
         return response()->json([
@@ -52,6 +51,12 @@ class ApiController extends Controller {
 
     public function courses() {
         $courses = Teacher::get(["course"]);
+        $i=0;
+
+        foreach($courses as $course) {
+            $courses[$i] = $course["course"];
+            $i++;
+        }
 
         return response()->json([
             "status" => "success",
