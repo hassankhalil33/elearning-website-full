@@ -30,6 +30,11 @@ class ApiController extends Controller {
     public function teachers() {
         $teachers = Teacher::get();
 
+        foreach($teachers as $teacher) {
+            $teacher["course"] = $teacher["course"]["name"];
+            
+        }
+
         return response()->json([
             "status" => "success",
             "message" => $teachers

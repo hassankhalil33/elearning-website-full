@@ -3,8 +3,11 @@ import Admin from "../../components/Admin";
 import Button from "../../components/Button";
 import Table from "../../components/Table";
 import courseData from "../../content/course_data";
+import FetchData from "../../hooks/FetchData";
 
 function AdminCourses() {
+
+  const { data } = FetchData("/courses");
 
   return (
     <Admin>
@@ -21,7 +24,7 @@ function AdminCourses() {
           </div>
           <Table
             headers={["Course ID", "Course Name", "Teacher", "Duration", "Edit"]}
-            contents={courseData}
+            contents={data.message ? data.message : courseData}
           />
         </section>
       </div>
