@@ -41,7 +41,7 @@ class ApiController extends Controller {
     }
 
     public function courses() {
-        $courses = Course::get();
+        $courses = Teacher::get(["course"]);
 
         return response()->json([
             "status" => "success",
