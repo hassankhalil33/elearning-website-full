@@ -28,7 +28,12 @@ class ApiController extends Controller {
     }
 
     public function teachers() {
-        
+        $teachers = Teacher::get();
+
+        return response()->json([
+            "status" => "success",
+            "message" => $teachers
+        ]);
     }
 
     public function announcements() {
