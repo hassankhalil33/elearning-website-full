@@ -36,6 +36,11 @@ class ApiController extends Controller {
     }
 
     public function courses() {
-        
+        $courses = Admin::get();
+
+        return response()->json([
+            "status" => "success",
+            "message" => $courses
+        ]);
     }
 }
