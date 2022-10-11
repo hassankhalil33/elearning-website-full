@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\Admin;
-use App\Models\Course;
+use App\Models\Teacher;
 
 class ApiController extends Controller {
     
